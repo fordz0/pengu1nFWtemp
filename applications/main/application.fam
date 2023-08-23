@@ -1,0 +1,21 @@
+App(
+    appid="main_apps",
+    name="Basic applications for main menu",
+    apptype=FlipperAppType.METAPACKAGE,
+    provides=[
+        "dab_timer",
+        "subghz",
+        "subghz_remote_refactored",
+        "subghz_playlist",
+        "lfrfid",
+        "nfc",
+        "infrared",
+        "ir_remote",
+        "gpio",
+        "ibutton",
+        "bad_kb",
+        "u2f",
+        "cfw",
+        "archive",
+    ],
+)
